@@ -1,0 +1,30 @@
+
+
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1
+PRODUCTVERSION 1
+FILEOS 0x40004
+FILETYPE 0x2
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "040904E4"
+		{
+			    VALUE "CompanyName", "Copyright (c) EfeDursun125"        "\0"
+				VALUE "FileDescription", "C++ math lib (with SSE2 support) for amxmodx"   "\0"
+				VALUE "FileVersion", "0.0.0.1"       "\0"
+				VALUE "OriginalFilename", "fastmath_amxx.dll" "\0"
+				VALUE "LegalCopyright", "EfeDursun125"     "\0"
+				VALUE "ProductName", "FastMath API"          "\0"
+				VALUE "ProductVersion", "0.0.0.1"       "\0"
+		}
+	}
+#ifndef NOLANGINFO
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation", 0x400, 1252
+	}
+#endif
+}
