@@ -10,6 +10,5 @@
 
 // API calling
 extern AMX_NATIVE_INFO fastmath_natives[];
-extern bool cpuSSESuport;
 
 #endif // MAIN_H
